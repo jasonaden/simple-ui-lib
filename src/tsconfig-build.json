@@ -7,7 +7,7 @@
     "stripInternal": true,
     "experimentalDecorators": true,
     "moduleResolution": "node",
-    "outDir": "../dist",
+    "outDir": "../build",
     "rootDir": ".",
     "lib": ["es2015", "dom"],
     "skipLibCheck": true,
@@ -15,11 +15,12 @@
     "types": []
   },
   "files": [
-    "./index.ts",
-    "../node_modules/zone.js/dist/zone.js.d.ts"
+    "./index.ts"
   ],
   "angularCompilerOptions": {
     "strictMetadataEmit": true,
-    "skipTemplateCodegen": true
+    "skipTemplateCodegen": true,
+    "flatModuleOutFile": "simple-ui-lib.js",
+    "flatModuleId": "simple-ui-lib"
   }
 }
