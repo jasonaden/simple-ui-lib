@@ -2,7 +2,8 @@
   "name": "simple-ui-lib",
   "author": "Jason Aden",
   "license": "MIT",
-  "module": "dist/simple-ui-lib.js",
+  "module": "dist/simple-ui-lib.es5.js",
+  "es2015": "dist/simple-ui-lib.js",
   "peerDependencies": {
     "@angular/core": "^4.0.1",
     "rxjs": "^5.3.0",

@@ -6,6 +6,8 @@ import {Component} from '@angular/core';
   styleUrls: ['./box.css']
 })
 export class Box {
-
+  constructor(public title: string) {
+    
+  }
 }
 
