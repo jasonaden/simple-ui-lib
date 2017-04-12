@@ -1,10 +1,11 @@
 {
   "name": "simple-ui-lib",
   "author": "Jason Aden",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
-  "module": "dist/simple-ui-lib.es5.js",
-  "es2015": "dist/simple-ui-lib.js",
+  "module": "simple-ui-lib.es5.js",
+  "es2015": "simple-ui-lib.js",
+  "typings": "simple-ui-lib.d.ts",
   "peerDependencies": {
     "@angular/core": "^4.0.1",
     "rxjs": "^5.3.0",
