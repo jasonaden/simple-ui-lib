@@ -5,9 +5,5 @@ import {Component} from '@angular/core';
   templateUrl: "./box.html",
   styleUrls: ['./box.css']
 })
-export class Box {
-  constructor(public title: string) {
-    
-  }
-}
+export class Box { }
 
