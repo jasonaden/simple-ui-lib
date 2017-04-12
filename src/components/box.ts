@@ -2,8 +2,8 @@ import {Component} from '@angular/core';
 
 @Component({
   selector: 'Box',
-  templateUrl: "./box.html",
-  styleUrls: ['./box.css']
+  templateUrl: "<div><ng-content></ng-content></div>",
+  styleUrls: ['div {border: 1px solid black;}']
 })
 export class Box { }
 
