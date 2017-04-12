@@ -1,7 +1,7 @@
 {
   "name": "simple-ui-lib",
   "author": "Jason Aden",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "license": "MIT",
   "module": "simple-ui-lib.es5.js",
   "es2015": "simple-ui-lib.js",
