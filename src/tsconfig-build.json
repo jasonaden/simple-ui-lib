@@ -6,6 +6,7 @@
     "baseUrl": ".",
     "stripInternal": true,
     "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
     "moduleResolution": "node",
     "outDir": "../build",
     "rootDir": ".",
@@ -14,9 +15,7 @@
     // don't auto-discover @types/node, it results in a ///<reference in the .d.ts output
     "types": []
   },
-  "files": [
-    "./index.ts"
-  ],
+  "files": ["./index.ts"],
   "angularCompilerOptions": {
     "annotateForClosureCompiler": true,
     "strictMetadataEmit": true,
